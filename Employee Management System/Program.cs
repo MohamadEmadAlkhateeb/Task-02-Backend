@@ -1,0 +1,24 @@
+﻿using Employee_Management_System;
+IWorkable workable;
+Employee workable1, workable2;
+workable1 = new FullTimeEmployee(1, "Ahmad", "Full-Time", 1200);
+
+workable1.DisplayInfo();
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("-------------------");
+Console.WriteLine();
+Console.WriteLine();
+workable2 = new PartTimeEmployee(2, "Omar", "Part-Time", 50, 8);
+Console.WriteLine();
+Console.WriteLine();
+workable2.DisplayInfo();
+Console.WriteLine();
+Console.WriteLine();
+Console.WriteLine("-------------------");
+Console.WriteLine();
+Console.WriteLine();
+workable = new FullTimeEmployee(1, "Ahmad", "Full-Time", 1200);
+Console.WriteLine(workable.Work());
+workable = new PartTimeEmployee(2, "Omar", "Part-Time", 8, 50);
+Console.WriteLine(workable.Work());
