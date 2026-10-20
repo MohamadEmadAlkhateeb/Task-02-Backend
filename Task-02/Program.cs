@@ -1,8 +1,5 @@
 ﻿using Task_02.Work;
 
-
-
-
 Console.Write("What is your id: ");
 int id = Convert.ToInt32(Console.ReadLine() ?? "0");
 Console.Write("What is your name: ");
